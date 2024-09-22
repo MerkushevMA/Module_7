@@ -22,7 +22,7 @@ print('Итого сегодня в командах участников: %s и
 
 # Использование Format():
 print('Команда {name} решила задач: {score}!'.format(name=team2_name, score=score_2))
-print('{name} решили задачи за {time}!'.format(name=team2_name, time=team2_time))
+print('{name} решили задачи за {time} сек.!'.format(name=team2_name, time=team2_time))
 
 #Использование f:
 print(f'Команды решили {score_1} и {score_2} задач!')
